@@ -1,0 +1,77 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #ba000d;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+h2 {
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+form input {
+  height: 1.8em;
+  padding: 0 6px;
+  max-width: 150px;
+  border-radius: 5px;
+  border: 1px solid #ba000d;
+}
+form input:focus {
+  outline: none;
+}
+
+button {
+  border: 1px solid #ba000d;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: transparent;
+  color: #ba000d;
+}
+button:hover {
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #ba000d;
+  color: white;
+}
+button:focus {
+  outline: none;
+}
+
+input {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+ul div {
+  width: 60vw;
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul button {
+}
+
+.taskContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timeLeft {
+  font-weight: 200;
+  font-size: 0.8em;
+  margin-left: auto;
+  margin-right: 8px;
+}
